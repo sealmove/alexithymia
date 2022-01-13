@@ -17,9 +17,16 @@ class SpaCyHunSpell:
             original = token.norm_
             try:
                 if not token.is_punct and not self.hobj.spell(original):
-                    suggestions = self.hobj.suggest(original)
-                    if suggestions:
-                        token.norm_ = suggestions[0]
+                    # Handle first token of sentence in a special way
+                    if token.is_sent_start:
+                        original = original[0].lower() + original[1:]
+                        suggestions = self.hobj.suggest(original)
+                        if suggestions:
+                            token.norm_ = suggestions[0].capitalize()
+                    else:
+                        suggestions = self.hobj.suggest(original)
+                        if suggestions:
+                            token.norm_ = suggestions[0]
             except UnicodeEncodeError:
                 pass
 

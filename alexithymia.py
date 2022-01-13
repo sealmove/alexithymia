@@ -6,10 +6,14 @@ from components.hunspell_spacy import hunspell
 # Auxiliary pipeline for converting greeklish to proper greek
 g2g = spacy.blank('el')
 
-g2g.add_pipe('greeklish_to_greek')
+g2g.add_pipe(
+    'greeklish_to_greek',
+    config={'path': 'rsrc/maps/spellings.json'}
+)
+
 g2g.add_pipe(
     'autocorrect',
-    config ={"path": ('rsrc/dict/el_GR.dic', 'rsrc/dict/el_GR.aff')}
+    config ={'path': ('rsrc/dict/el_GR.dic', 'rsrc/dict/el_GR.aff')}
 )
 
 # Main pipeline
@@ -27,3 +31,5 @@ def feel(message: str):
 
     for _, proc in nlp.pipeline:
         doc = proc(doc)
+
+    return doc

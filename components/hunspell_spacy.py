@@ -16,10 +16,11 @@ class SpaCyHunSpell:
         for token in doc:
             original = token.norm_
             try:
-                if not self.hobj.spell(original):
+                if not token.is_punct and not self.hobj.spell(original):
                     suggestions = self.hobj.suggest(original)
                     if suggestions:
                         token.norm_ = suggestions[0]
             except UnicodeEncodeError:
                 pass
+
         return doc

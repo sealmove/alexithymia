@@ -9,7 +9,7 @@ g2g = spacy.blank('el')
 g2g.add_pipe('greeklish_to_greek')
 g2g.add_pipe(
     'autocorrect',
-    config ={"path": ('huspell/el_GR.dic', 'huspell/el_GR.aff')}
+    config ={"path": ('rsrc/dict/el_GR.dic', 'rsrc/dict/el_GR.aff')}
 )
 
 # Main pipeline

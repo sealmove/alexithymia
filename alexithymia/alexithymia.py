@@ -1,10 +1,9 @@
 import spacy
-import tokenization
 
 def feel(message: str):
-    nlp = spacy.blank("en")
-    tokenization.set_greeklish_tokenizer(nlp)
+    # TODO: detect language
 
+    # If greeklish
+    nlp = spacy.blank("greeklish")
     doc = nlp(message)
-
     return doc

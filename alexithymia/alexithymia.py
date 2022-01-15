@@ -1,6 +1,6 @@
 import spacy
 from tokenization import customize_tokenizer
-import greeklish 
+import greeklish
 
 def feel(message: str):
     # TODO: detect language

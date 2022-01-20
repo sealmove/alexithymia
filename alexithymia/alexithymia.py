@@ -21,6 +21,30 @@ DEFAULT_EMOTIONS = Emotions(joy=0, trust=0, fear=0, surprise=0,
                             sadness=0, disgust=0, anger=0, anticipation=0)
 
 
+class Scores(TypedDict):
+    joy: float
+    trust: float
+    fear: float
+    surprise: float
+    sadness: float
+    disgust: float
+    anger: float
+    anticipation: float
+
+
+def score(emotions: Emotions) -> Scores:
+    '''Assigns a score to each emotion based on all extracted information.
+
+    The score is a decimal number in range [0, 3] corresponding to the levels
+    of Plutchik's Wheel of Emotions model.
+    '''
+
+    def evaluate(x):
+        return float(min(x, 3))
+
+    return {emotion: evaluate(count) for emotion, count in emotions.items()}
+
+
 def feel(message: str) -> Emotions:
     # TODO: detect language
 
@@ -35,4 +59,4 @@ def feel(message: str) -> Emotions:
     Doc.set_extension("emotions", default=DEFAULT_EMOTIONS)
     recognize_sentiment(nlp, doc)
 
-    return doc._.emotions
+    return score(doc._.emotions)

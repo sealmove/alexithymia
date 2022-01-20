@@ -1,129 +1,452 @@
 {
-  "😀": ["joy"],
-  "😃": ["joy"],
-  "😄": ["joy"],
-  "😁": ["joy", "ant"],
-  "😆": ["joy", "sur"],
-  "😅": ["joy", "fea"],
-  "🤣": ["joy", "sur"],
-  "😂": ["joy", "sur"],
-  "🙂": ["joy"],
-  "🙃": ["dis"],
-  "😉": ["joy"],
-  "😊": ["joy"],
-  "😇": ["joy"],
-  "🥰": ["joy", "tru"],
-  "😍": ["joy", "tru"],
-  "🤩": ["joy", "ant"],
-  "😘": ["joy", "tru"],
-  "😗": ["joy", "tru"],
-  "☺️": ["tru"],
-  "😚": ["joy", "tru"],
-  "😙": ["joy", "tru"],
-  "🥲": ["joy", "sad"],
-  "😋": [],
-  "😛": [],
-  "😜": [],
-  "🤪": [],
-  "😝": [],
-  "🤑": [],
-  "🤗": [],
-  "🤭": [],
-  "🤫": [],
-  "🤔": [],
-  "🤐": [],
-  "🤨": [],
-  "😐": [],
-  "😑": [],
-  "😶": [],
-  "😏": [],
-  "😒": [],
-  "🙄": [],
-  "😬": [],
-  "🤥": [],
-  "😌": [],
-  "😔": [],
-  "😪": [],
-  "🤤": [],
-  "😴": [],
-  "😷": [],
-  "🤒": [],
-  "🤕": [],
-  "🤢": [],
-  "🤮": [],
-  "🤧": [],
-  "🥵": [],
-  "🥶": [],
-  "🥴": [],
-  "😵": [],
-  "🤯": [],
-  "🤠": [],
-  "🥳": [],
-  "🥸": [],
-  "😎": [],
-  "🤓": [],
-  "🧐": [],
-  "😕": [],
-  "😟": [],
-  "🙁": [],
-  "😮": [],
-  "😯": [],
-  "😲": [],
-  "😳": [],
-  "🥺": [],
-  "😦": [],
-  "😧": [],
-  "😨": [],
-  "😰": [],
-  "😥": [],
-  "😢": [],
-  "😭": [],
-  "😱": [],
-  "😖": [],
-  "😣": [],
-  "😞": [],
-  "😓": [],
-  "😩": [],
-  "😫": [],
-  "🥱": [],
-  "😤": [],
-  "😡": [],
-  "😠": [],
-  "🤬": [],
-  "😈": [],
-  "👿": [],
-  "💀": [],
-  "☠️": [],
-  "💩": [],
-  "😺": [],
-  "😸": [],
-  "😹": [],
-  "😻": [],
-  "😼": [],
-  "😽": [],
-  "🙀": [],
-  "😿": [],
-  "😾": [],
-  "💋": [],
-  "💘": [],
-  "💝": [],
-  "💖": [],
-  "💗": [],
-  "💓": [],
-  "💞": [],
-  "💕": [],
-  "💟": [],
-  "❣️": [],
-  "💔": [],
-  "❤️‍🔥": [],
-  "❤️‍🩹": [],
-  "❤️": [],
-  "🧡": [],
-  "💛": [],
-  "💚": [],
-  "💙": [],
-  "💜": [],
-  "🤎": [],
-  "🖤": [],
-  "🤍": []
+  ":grinning_face:": [
+    "joy"
+  ],
+  ":grinning_face_with_big_eyes:": [
+    "joy"
+  ],
+  ":grinning_face_with_smiling_eyes:": [
+    "joy"
+  ],
+  ":beaming_face_with_smiling_eyes:": [
+    "joy",
+    "ant"
+  ],
+  ":grinning_squinting_face:": [
+    "joy",
+    "sur"
+  ],
+  ":grinning_face_with_sweat:": [
+    "joy",
+    "fea"
+  ],
+  ":rolling_on_the_floor_laughing:": [
+    "joy",
+    "sur"
+  ],
+  ":face_with_tears_of_joy:": [
+    "joy",
+    "sur"
+  ],
+  ":slightly_smiling_face:": [
+    "joy"
+  ],
+  ":upside-down_face:": [
+    "dis"
+  ],
+  ":winking_face:": [
+    "joy"
+  ],
+  ":smiling_face_with_smiling_eyes:": [
+    "joy"
+  ],
+  ":smiling_face_with_halo:": [
+    "joy"
+  ],
+  ":smiling_face_with_hearts:": [
+    "joy",
+    "tru"
+  ],
+  ":smiling_face_with_heart-eyes:": [
+    "joy",
+    "tru"
+  ],
+  ":star-struck:": [
+    "joy",
+    "ant"
+  ],
+  ":face_blowing_a_kiss:": [
+    "joy",
+    "tru"
+  ],
+  ":kissing_face:": [
+    "joy",
+    "tru"
+  ],
+  ":smiling_face:": [
+    "tru"
+  ],
+  ":kissing_face_with_closed_eyes:": [
+    "joy",
+    "tru"
+  ],
+  ":kissing_face_with_smiling_eyes:": [
+    "joy",
+    "tru"
+  ],
+  ":smiling_face_with_tear:": [
+    "joy",
+    "sad"
+  ],
+  ":face_savoring_food:": [
+    "joy"
+  ],
+  ":face_with_tongue:": [
+    "joy",
+    "sur"
+  ],
+  ":winking_face_with_tongue:": [
+    "joy"
+  ],
+  ":zany_face:": [
+    "joy",
+    "sur"
+  ],
+  ":squinting_face_with_tongue:": [
+    "joy",
+    "sur"
+  ],
+  ":money-mouth_face:": [
+    "joy",
+    "ant"
+  ],
+  ":smiling_face_with_open_hands:": [
+    "joy",
+    "ant",
+    "sur"
+  ],
+  ":face_with_hand_over_mouth:": [
+    "joy",
+    "sur"
+  ],
+  ":shushing_face:": [
+    "fea",
+    "sur"
+  ],
+  ":thinking_face:": [
+    "dis"
+  ],
+  ":zipper-mouth_face:": [
+    "dis"
+  ],
+  ":face_with_raised_eyebrow:": [
+    "dis"
+  ],
+  ":neutral_face:": [
+    "dis"
+  ],
+  ":expressionless_face:": [
+    "dis"
+  ],
+  ":face_without_mouth:": [
+    "dis"
+  ],
+  ":smirking_face:": [
+    "joy",
+    "ant"
+  ],
+  ":unamused_face:": [
+    "dis",
+    "ang"
+  ],
+  ":face_with_rolling_eyes:": [
+    "dis"
+  ],
+  ":grimacing_face:": [
+    "dis"
+  ],
+  ":lying_face:": [
+    "dis",
+    "sad"
+  ],
+  ":relieved_face:": [
+    "dis"
+  ],
+  ":pensive_face:": [
+    "sad"
+  ],
+  ":sleepy_face:": [
+    "sad"
+  ],
+  ":drooling_face:": [
+    "joy",
+    "ant"
+  ],
+  ":sleeping_face:": [
+    "dis"
+  ],
+  ":face_with_medical_mask:": [
+    "dis"
+  ],
+  ":face_with_thermometer:": [
+    "dis",
+    "sad"
+  ],
+  ":face_with_head-bandage:": [
+    "dis",
+    "fea"
+  ],
+  ":nauseated_face:": [
+    "dis"
+  ],
+  ":face_vomiting:": [
+    "dis"
+  ],
+  ":sneezing_face:": [
+    "dis",
+    "sad"
+  ],
+  ":hot_face:": [
+    "dis",
+    "sur",
+    "tru"
+  ],
+  ":cold_face:": [
+    "dis",
+    "sur"
+  ],
+  ":woozy_face:": [
+    "joy",
+    "sur"
+  ],
+  ":face_with_crossed-out_eyes:": [
+    "sur"
+  ],
+  ":exploding_head:": [
+    "sur"
+  ],
+  ":cowboy_hat_face:": [
+    "joy"
+  ],
+  ":partying_face:": [
+    "joy",
+    "sur"
+  ],
+  ":disguised_face:": [],
+  ":smiling_face_with_sunglasses:": [
+    "joy"
+  ],
+  ":nerd_face:": [
+    "joy"
+  ],
+  ":face_with_monocle:": [
+    "joy",
+    "ant"
+  ],
+  ":confused_face:": [
+    "sad"
+  ],
+  ":worried_face:": [
+    "sad"
+  ],
+  ":slightly_frowning_face:": [
+    "sad"
+  ],
+  ":face_with_open_mouth:": [
+    "sur",
+    "ant"
+  ],
+  ":hushed_face:": [
+    "sur",
+    "ant"
+  ],
+  ":astonished_face:": [
+    "sur"
+  ],
+  ":flushed_face:": [
+    "sur"
+  ],
+  ":pleading_face:": [
+    "tru"
+  ],
+  ":frowning_face_with_open_mouth:": [
+    "fea"
+  ],
+  ":anguished_face:": [
+    "fea"
+  ],
+  ":fearful_face:": [
+    "fea"
+  ],
+  ":anxious_face_with_sweat:": [
+    "fea"
+  ],
+  ":sad_but_relieved_face:": [
+    "sad",
+    "fea"
+  ],
+  ":crying_face:": [
+    "sad"
+  ],
+  ":loudly_crying_face:": [
+    "sad"
+  ],
+  ":face_screaming_in_fear:": [
+    "sur",
+    "fea"
+  ],
+  ":confounded_face:": [
+    "dis"
+  ],
+  ":persevering_face:": [
+    "dis",
+    "ang"
+  ],
+  ":disappointed_face:": [
+    "dis",
+    "sad"
+  ],
+  ":downcast_face_with_sweat:": [
+    "dis",
+    "sad"
+  ],
+  ":weary_face:": [
+    "dis",
+    "sad"
+  ],
+  ":tired_face:": [
+    "dis",
+    "sad"
+  ],
+  ":yawning_face:": [
+    "dis"
+  ],
+  ":face_with_steam_from_nose:": [
+    "ang"
+  ],
+  ":pouting_face:": [
+    "ang"
+  ],
+  ":angry_face:": [
+    "ang"
+  ],
+  ":face_with_symbols_on_mouth:": [
+    "ang"
+  ],
+  ":smiling_face_with_horns:": [
+    "ang"
+  ],
+  ":angry_face_with_horns:": [
+    "ang"
+  ],
+  ":skull:": [
+    "dis"
+  ],
+  ":skull_and_crossbones:": [
+    "dis"
+  ],
+  ":pile_of_poo:": [
+    "dis"
+  ],
+  ":grinning_cat:": [
+    "joy",
+    "tru"
+  ],
+  ":grinning_cat_with_smiling_eyes:": [
+    "joy",
+    "tru"
+  ],
+  ":cat_with_tears_of_joy:": [
+    "joy",
+    "tru"
+  ],
+  ":smiling_cat_with_heart-eyes:": [
+    "joy",
+    "tru"
+  ],
+  ":cat_with_wry_smile:": [
+    "joy",
+    "ant"
+  ],
+  ":kissing_cat:": [
+    "joy",
+    "tru"
+  ],
+  ":weary_cat:": [
+    "sur"
+  ],
+  ":crying_cat:": [
+    "sad"
+  ],
+  ":pouting_cat:": [
+    "ang"
+  ],
+  ":kiss_mark:": [
+    "joy",
+    "tru"
+  ],
+  ":heart_with_arrow:": [
+    "joy",
+    "tru"
+  ],
+  ":heart_with_ribbon:": [
+    "joy",
+    "tru"
+  ],
+  ":sparkling_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":growing_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":beating_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":revolving_hearts:": [
+    "joy",
+    "tru"
+  ],
+  ":two_hearts:": [
+    "joy",
+    "tru"
+  ],
+  ":heart_decoration:": [
+    "joy",
+    "tru"
+  ],
+  ":heart_exclamation:": [
+    "joy",
+    "tru"
+  ],
+  ":broken_heart:": [
+    "sad"
+  ],
+  ":heart_on_fire:": [
+    "joy",
+    "tru",
+    "sur"
+  ],
+  ":mending_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":red_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":orange_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":yellow_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":green_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":blue_heart:": [
+    "joy",
+    "dis"
+  ],
+  ":purple_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":brown_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":black_heart:": [
+    "joy",
+    "tru"
+  ],
+  ":white_heart:": [
+    "joy",
+    "tru"
+  ]
 }

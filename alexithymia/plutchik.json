@@ -10,29 +10,29 @@
   ],
   ":beaming_face_with_smiling_eyes:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":grinning_squinting_face:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":grinning_face_with_sweat:": [
     "joy",
-    "fea"
+    "fear"
   ],
   ":rolling_on_the_floor_laughing:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":face_with_tears_of_joy:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":slightly_smiling_face:": [
     "joy"
   ],
   ":upside-down_face:": [
-    "dis"
+    "disgust"
   ],
   ":winking_face:": [
     "joy"
@@ -45,172 +45,172 @@
   ],
   ":smiling_face_with_hearts:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":smiling_face_with_heart-eyes:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":star-struck:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":face_blowing_a_kiss:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":kissing_face:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":smiling_face:": [
-    "tru"
+    "trust"
   ],
   ":kissing_face_with_closed_eyes:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":kissing_face_with_smiling_eyes:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":smiling_face_with_tear:": [
     "joy",
-    "sad"
+    "sadness"
   ],
   ":face_savoring_food:": [
     "joy"
   ],
   ":face_with_tongue:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":winking_face_with_tongue:": [
     "joy"
   ],
   ":zany_face:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":squinting_face_with_tongue:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":money-mouth_face:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":smiling_face_with_open_hands:": [
     "joy",
-    "ant",
-    "sur"
+    "anticipation",
+    "surprise"
   ],
   ":face_with_hand_over_mouth:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":shushing_face:": [
-    "fea",
-    "sur"
+    "fear",
+    "surprise"
   ],
   ":thinking_face:": [
-    "dis"
+    "disgust"
   ],
   ":zipper-mouth_face:": [
-    "dis"
+    "disgust"
   ],
   ":face_with_raised_eyebrow:": [
-    "dis"
+    "disgust"
   ],
   ":neutral_face:": [
-    "dis"
+    "disgust"
   ],
   ":expressionless_face:": [
-    "dis"
+    "disgust"
   ],
   ":face_without_mouth:": [
-    "dis"
+    "disgust"
   ],
   ":smirking_face:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":unamused_face:": [
-    "dis",
-    "ang"
+    "disgust",
+    "anger"
   ],
   ":face_with_rolling_eyes:": [
-    "dis"
+    "disgust"
   ],
   ":grimacing_face:": [
-    "dis"
+    "disgust"
   ],
   ":lying_face:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":relieved_face:": [
-    "dis"
+    "disgust"
   ],
   ":pensive_face:": [
-    "sad"
+    "sadness"
   ],
   ":sleepy_face:": [
-    "sad"
+    "sadness"
   ],
   ":drooling_face:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":sleeping_face:": [
-    "dis"
+    "disgust"
   ],
   ":face_with_medical_mask:": [
-    "dis"
+    "disgust"
   ],
   ":face_with_thermometer:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":face_with_head-bandage:": [
-    "dis",
-    "fea"
+    "disgust",
+    "fear"
   ],
   ":nauseated_face:": [
-    "dis"
+    "disgust"
   ],
   ":face_vomiting:": [
-    "dis"
+    "disgust"
   ],
   ":sneezing_face:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":hot_face:": [
-    "dis",
-    "sur",
-    "tru"
+    "disgust",
+    "surprise",
+    "trust"
   ],
   ":cold_face:": [
-    "dis",
-    "sur"
+    "disgust",
+    "surprise"
   ],
   ":woozy_face:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":face_with_crossed-out_eyes:": [
-    "sur"
+    "surprise"
   ],
   ":exploding_head:": [
-    "sur"
+    "surprise"
   ],
   ":cowboy_hat_face:": [
     "joy"
   ],
   ":partying_face:": [
     "joy",
-    "sur"
+    "surprise"
   ],
   ":disguised_face:": [],
   ":smiling_face_with_sunglasses:": [
@@ -221,232 +221,232 @@
   ],
   ":face_with_monocle:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":confused_face:": [
-    "sad"
+    "sadness"
   ],
   ":worried_face:": [
-    "sad"
+    "sadness"
   ],
   ":slightly_frowning_face:": [
-    "sad"
+    "sadness"
   ],
   ":face_with_open_mouth:": [
-    "sur",
-    "ant"
+    "surprise",
+    "anticipation"
   ],
   ":hushed_face:": [
-    "sur",
-    "ant"
+    "surprise",
+    "anticipation"
   ],
   ":astonished_face:": [
-    "sur"
+    "surprise"
   ],
   ":flushed_face:": [
-    "sur"
+    "surprise"
   ],
   ":pleading_face:": [
-    "tru"
+    "trust"
   ],
   ":frowning_face_with_open_mouth:": [
-    "fea"
+    "fear"
   ],
   ":anguished_face:": [
-    "fea"
+    "fear"
   ],
   ":fearful_face:": [
-    "fea"
+    "fear"
   ],
   ":anxious_face_with_sweat:": [
-    "fea"
+    "fear"
   ],
   ":sad_but_relieved_face:": [
-    "sad",
-    "fea"
+    "sadness",
+    "fear"
   ],
   ":crying_face:": [
-    "sad"
+    "sadness"
   ],
   ":loudly_crying_face:": [
-    "sad"
+    "sadness"
   ],
   ":face_screaming_in_fear:": [
-    "sur",
-    "fea"
+    "surprise",
+    "fear"
   ],
   ":confounded_face:": [
-    "dis"
+    "disgust"
   ],
   ":persevering_face:": [
-    "dis",
-    "ang"
+    "disgust",
+    "anger"
   ],
   ":disappointed_face:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":downcast_face_with_sweat:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":weary_face:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":tired_face:": [
-    "dis",
-    "sad"
+    "disgust",
+    "sadness"
   ],
   ":yawning_face:": [
-    "dis"
+    "disgust"
   ],
   ":face_with_steam_from_nose:": [
-    "ang"
+    "anger"
   ],
   ":pouting_face:": [
-    "ang"
+    "anger"
   ],
   ":angry_face:": [
-    "ang"
+    "anger"
   ],
   ":face_with_symbols_on_mouth:": [
-    "ang"
+    "anger"
   ],
   ":smiling_face_with_horns:": [
-    "ang"
+    "anger"
   ],
   ":angry_face_with_horns:": [
-    "ang"
+    "anger"
   ],
   ":skull:": [
-    "dis"
+    "disgust"
   ],
   ":skull_and_crossbones:": [
-    "dis"
+    "disgust"
   ],
   ":pile_of_poo:": [
-    "dis"
+    "disgust"
   ],
   ":grinning_cat:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":grinning_cat_with_smiling_eyes:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":cat_with_tears_of_joy:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":smiling_cat_with_heart-eyes:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":cat_with_wry_smile:": [
     "joy",
-    "ant"
+    "anticipation"
   ],
   ":kissing_cat:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":weary_cat:": [
-    "sur"
+    "surprise"
   ],
   ":crying_cat:": [
-    "sad"
+    "sadness"
   ],
   ":pouting_cat:": [
-    "ang"
+    "anger"
   ],
   ":kiss_mark:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":heart_with_arrow:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":heart_with_ribbon:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":sparkling_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":growing_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":beating_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":revolving_hearts:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":two_hearts:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":heart_decoration:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":heart_exclamation:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":broken_heart:": [
-    "sad"
+    "sadness"
   ],
   ":heart_on_fire:": [
     "joy",
-    "tru",
-    "sur"
+    "trust",
+    "surprise"
   ],
   ":mending_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":red_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":orange_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":yellow_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":green_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":blue_heart:": [
     "joy",
-    "dis"
+    "disgust"
   ],
   ":purple_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":brown_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":black_heart:": [
     "joy",
-    "tru"
+    "trust"
   ],
   ":white_heart:": [
     "joy",
-    "tru"
+    "trust"
   ]
 }

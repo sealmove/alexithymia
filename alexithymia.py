@@ -8,7 +8,7 @@ import greeklish
 DEFAULT_EMOTIONS = dict(joy=0, trust=0, fear=0, surprise=0,
                             sadness=0, disgust=0, anger=0, anticipation=0)
 
-                  
+
 def score(emotions: dict) -> dict:
     '''Assigns a score to each emotion based on all extracted information.
 

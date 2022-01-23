@@ -1,3 +1,2 @@
 spacy == 3.2.1
 emoji == 1.6.1
-hunspell == 0.5.0

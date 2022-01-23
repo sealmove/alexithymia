@@ -5,8 +5,9 @@ from analysis import recognize_sentiment
 import greeklish
 
 
-DEFAULT_EMOTIONS = dict(joy=0, trust=0, fear=0, surprise=0,
-                            sadness=0, disgust=0, anger=0, anticipation=0)
+Doc.set_extension("emotions", default=dict(
+    joy=0, trust=0, fear=0, surprise=0,
+    sadness=0, disgust=0, anger=0, anticipation=0))
 
 
 def score(emotions: dict) -> dict:
@@ -33,7 +34,6 @@ def feel(message: str) -> dict:
     customize_tokenizer(nlp)
 
     # Extract emotions from emojis
-    Doc.set_extension("emotions", default=DEFAULT_EMOTIONS)
     recognize_sentiment(nlp, doc)
 
     return score(doc._.emotions)

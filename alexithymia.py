@@ -1,4 +1,3 @@
-from typing import TypedDict
 import spacy
 from spacy.tokens import Doc
 from tokenization import customize_tokenizer
@@ -6,33 +5,11 @@ from analysis import recognize_sentiment
 import greeklish
 
 
-class Emotions(TypedDict):
-    joy: int
-    trust: int
-    fear: int
-    surprise: int
-    sadness: int
-    disgust: int
-    anger: int
-    anticipation: int
-
-
-DEFAULT_EMOTIONS = Emotions(joy=0, trust=0, fear=0, surprise=0,
+DEFAULT_EMOTIONS = dict(joy=0, trust=0, fear=0, surprise=0,
                             sadness=0, disgust=0, anger=0, anticipation=0)
 
-
-class Scores(TypedDict):
-    joy: float
-    trust: float
-    fear: float
-    surprise: float
-    sadness: float
-    disgust: float
-    anger: float
-    anticipation: float
-
-
-def score(emotions: Emotions) -> Scores:
+                  
+def score(emotions: dict) -> dict:
     '''Assigns a score to each emotion based on all extracted information.
 
     The score is a decimal number in range [0, 3] corresponding to the levels
@@ -45,7 +22,7 @@ def score(emotions: Emotions) -> Scores:
     return {emotion: evaluate(count) for emotion, count in emotions.items()}
 
 
-def feel(message: str) -> Emotions:
+def feel(message: str) -> dict:
     # TODO: detect language
 
     # If greeklish
